@@ -1,5 +1,5 @@
 resources:
-- ../wordpress/wordpress
+- ../wordpress/${appl}
 - mysql
 patchesStrategicMerge:
 - patch.yaml

@@ -1,5 +1,5 @@
 resources:
-- ../wordpress/'${#toString('appl')}'
+- ../wordpress/'${appl}.toString()'
 - mysql
 patchesStrategicMerge:
 - patch.yaml

@@ -1,5 +1,6 @@
 resources:
-- github.com/yugaa22/kustomize-1/examples/wordpress/${appl}
+#- github.com/yugaa22/kustomize-1/examples/wordpress/${appl}
+- ../wordpress/${appl}
 - mysql
 patchesStrategicMerge:
 - patch.yaml
